@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+header {
+    background-color: black;
+    padding: 25px 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header input {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    padding-right: 116px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #666666;
+    outline: none;
+}
+
+.icons i {
+    margin-left: -30px;
+    color: #666666;
+}
+
+.mar {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFDFD;
+}
+
+.hero1 {
+    background-image: url("./img/slider2\ 2.png");
+    height: 300px;
+}
+
+.mo {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.to {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.btn1 {
+    padding: 18px 20px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    background: #76B900;
+    border: none;
+    margin-top: 89px;
+}
+
+.dotes {
+    position: relative;
+    margin-left: 600px;
+    top: 10px;
+}
+
+.card {
+    width: 290px;
+    height: 302px;
+    box-shadow: 0px 17px 27px -4px #00000040;
+}
+
+.gam {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.gra {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.shop {
+    padding-top: 37px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.card span {
+    color: #76B900;
+}
+
+.card-ota {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grap {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.net {
+    margin-top: 40px;
+    margin-bottom: 57px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.hero5 {
+    height: 351px;
+    background: #FFFCFC;
+}
+
+.nv {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #67B900;
+    padding-top: 21px;
+    padding-bottom: 28px;
+    margin-left: 40px;
+}
+
+.hero5 .container {
+    display: flex;
+    align-items: center;
+}
+
+.btn2 {
+    padding: 20px 32px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    background: #76B900;
+    border: none;
+    margin-left: 40px;
+}
+
+.hero5 {
+    margin-top: 39px;
+}
+
+.ed {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-left: 40px;
+    padding-bottom: 58px;
+}
+
+body {
+    background: #F5F5F5;
+}
+.usa {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #666666;
+}
+footer{
+    padding-top: 109px;
+    padding-bottom: 80px;
+    background-color: white;
+}
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
